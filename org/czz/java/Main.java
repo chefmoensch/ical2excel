@@ -16,6 +16,8 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        launch(args);
+        //launch(args);
+        HTMLGet icsRetriever1 = new HTMLGet();
+        icsRetriever1.getHTML("https://zollhaus.churchtools.de/?q=churchcal/ical&security=kZlDb8iQWg8Y6heWRKnuw4wPdQwdxOUZ&id=7")
     }
 }
